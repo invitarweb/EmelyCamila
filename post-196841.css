@@ -3714,4 +3714,12 @@ body.rtl .elementor-196841 .elementor-element.elementor-element-1502b95 .element
 	}
 }
 
+.d_none{
+	display: none !important;
+}
+
+.lila{
+	filter: hue-rotate(305deg) saturate(0.75) brightness(1.05)
+}
+
 /* End custom CSS */
