@@ -1184,7 +1184,7 @@ function compartirWat(familia){
     
     // Codificar la familia para evitar problemas con espacios
     const familiaCodeada = encodeURIComponent(familia);
-    const mensaje = "https://invitadoweb.github.io/LeslieMelany/?invitado=" + familiaCodeada;
+    const mensaje = "https://invitarweb.github.io/EmelyCamila/?invitado=" + familiaCodeada;
     const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(mensaje)}`;
     
     boton.addEventListener('click', function() {
@@ -1199,6 +1199,8 @@ function toTitleCase(str) {
         .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
         .join(' ');
 }
+
+
 
 function pases(n_invitaods){
     var bloque=document.querySelector('[data-bloque="confirmacion-pases-105"]'); if(!bloque) return;
